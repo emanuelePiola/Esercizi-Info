@@ -1,0 +1,11 @@
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\bin\Debug\cSharp_EsercizioGuidato02.exe.config
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\bin\Debug\cSharp_EsercizioGuidato02.exe
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\bin\Debug\cSharp_EsercizioGuidato02.pdb
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.csproj.AssemblyReference.cache
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.csproj.SuggestedBindingRedirects.cache
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.Form1.resources
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.Properties.Resources.resources
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.csproj.GenerateResource.cache
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.csproj.CoreCompileInputs.cache
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.exe
+C:\Users\e.piola.2730\Desktop\Esercizi-Info\cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02\obj\Debug\cSharp_EsercizioGuidato02.pdb

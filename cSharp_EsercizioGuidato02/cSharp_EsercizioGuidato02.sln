@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cSharp_EsercizioGuidato02", "cSharp_EsercizioGuidato02\cSharp_EsercizioGuidato02.csproj", "{A536E1D0-B5DE-4652-BD3A-EDF3E826E062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A536E1D0-B5DE-4652-BD3A-EDF3E826E062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A536E1D0-B5DE-4652-BD3A-EDF3E826E062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A536E1D0-B5DE-4652-BD3A-EDF3E826E062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A536E1D0-B5DE-4652-BD3A-EDF3E826E062}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EC597B4-E0AC-4AA9-AD14-282A415F692E}
+	EndGlobalSection
+EndGlobal
