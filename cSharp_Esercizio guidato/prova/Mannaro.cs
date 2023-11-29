@@ -15,14 +15,14 @@ namespace prova
             verso = "ululato";
             mutato = true;
         }
-        public double Valore()
+        public new double Valore()
         {
             if (mutato)
                 return 2 * base.Valore();
             else
                 return base.Valore();
         }
-        public string Verso()
+        public new string Verso()
         {
             if (mutato)
                 return verso;
