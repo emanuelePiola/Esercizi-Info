@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF443125-4874-4427-8C5D-F75455CB5CCC}</ProjectGuid>
+    <ProjectGuid>{A536E1D0-B5DE-4652-BD3A-EDF3E826E062}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>cSharp_Esercizio_Guidato_02</RootNamespace>
-    <AssemblyName>cSharp_Esercizio Guidato 02</AssemblyName>
+    <RootNamespace>cSharp_EsercizioGuidato02</RootNamespace>
+    <AssemblyName>cSharp_EsercizioGuidato02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

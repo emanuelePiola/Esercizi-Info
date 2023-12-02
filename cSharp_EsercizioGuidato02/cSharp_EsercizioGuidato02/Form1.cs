@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cSharp_Esercizio_Guidato_02
+namespace cSharp_EsercizioGuidato02
 {
     public partial class Form1 : Form
     {

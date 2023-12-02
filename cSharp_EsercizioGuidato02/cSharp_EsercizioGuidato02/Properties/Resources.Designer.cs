@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace cSharp_Esercizio_Guidato_02.Properties
+namespace cSharp_EsercizioGuidato02.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace cSharp_Esercizio_Guidato_02.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("cSharp_Esercizio_Guidato_02.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("cSharp_EsercizioGuidato02.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

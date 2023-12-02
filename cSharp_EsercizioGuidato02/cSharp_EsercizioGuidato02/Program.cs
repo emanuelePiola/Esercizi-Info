@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cSharp_Esercizio_Guidato_02
+namespace cSharp_EsercizioGuidato02
 {
     internal static class Program
     {

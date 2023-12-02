@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace cSharp_Esercizio_Guidato_02.Properties
+namespace cSharp_EsercizioGuidato02.Properties
 {
 
 

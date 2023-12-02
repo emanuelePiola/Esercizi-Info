@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("cSharp_Esercizio Guidato 02")]
+[assembly: AssemblyTitle("cSharp_EsercizioGuidato02")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("cSharp_Esercizio Guidato 02")]
+[assembly: AssemblyProduct("cSharp_EsercizioGuidato02")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("ff443125-4874-4427-8c5d-f75455cb5ccc")]
+[assembly: Guid("a536e1d0-b5de-4652-bd3a-edf3e826e062")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
