@@ -11,7 +11,7 @@ namespace Es_dipendenti
         private string nome;
         private int salarioBase;
 
-        internal Dipendenti(string name, int baseSalary) 
+        internal Dipendenti(string name, int baseSalary)
         {
             Nome = name;
             SalarioBase = baseSalary;
