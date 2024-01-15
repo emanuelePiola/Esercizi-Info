@@ -19,13 +19,28 @@ namespace RegEX01
         public Form1()
         {
             InitializeComponent();
-            Regex rgx = new Regex(@"^[a-zA-Z0-9]\d{2}[a-zA-Z0-9](-\d{3}){2}[A-Za-z0-9]$");
+
+            //Regex.IsMatch...
+
+            //(String,String)
+            Regex rgx1 = new Regex(@"^[a-zA-Z0-9]\d{2}[a-zA-Z0-9](-\d{3}){2}[A-Za-z0-9]$");
             foreach (string partNumber in partNumbers)
             {
-                string s = string.Format("{0} {1} a valid part number.",
-                partNumber, rgx.IsMatch(partNumber) ? "is" : "is not");
-                MessageBox.Show(s);
+                string s1 = string.Format("{0} {1} a valid part number.",
+                partNumber, rgx1.IsMatch(partNumber) ? "is" : "is not");
+                MessageBox.Show(s1);
             }
+
+            //(String,String,RegexOptions
+            string pattern = @"^[A-Z0-9]\d{2}[A-Z0-9](-\d{3}){2}[A-Z0-9]$";
+            foreach (string partNumber in partNumbers)
+            {
+                string s2 = string.Format("{0} {1} a valid part number.", 
+                    partNumber, Regex.IsMatch(partNumber, pattern, RegexOptions.IgnoreCase) 
+                    ? "is" : "is not");
+                MessageBox.Show(s2);
+            }
+
         }
     }
 }
