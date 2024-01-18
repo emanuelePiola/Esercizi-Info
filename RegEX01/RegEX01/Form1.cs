@@ -22,7 +22,7 @@ namespace RegEX01
 
             //Regex.IsMatch...
 
-            //(String,String)
+            //(String)
             Regex rgx1 = new Regex(@"^[a-zA-Z0-9]\d{2}[a-zA-Z0-9](-\d{3}){2}[A-Za-z0-9]$");
             foreach (string partNumber in partNumbers)
             {
@@ -31,14 +31,23 @@ namespace RegEX01
                 MessageBox.Show(s1);
             }
 
-            //(String,String,RegexOptions
-            string pattern = @"^[A-Z0-9]\d{2}[A-Z0-9](-\d{3}){2}[A-Z0-9]$";
+            //(String,String)
+            string pattern1 = @"^[a-zA-Z0-9]\d{2}[a-zA-Z0-9](-\d{3}){2}[A-Za-z0-9]$";
             foreach (string partNumber in partNumbers)
             {
-                string s2 = string.Format("{0} {1} a valid part number.", 
-                    partNumber, Regex.IsMatch(partNumber, pattern, RegexOptions.IgnoreCase) 
-                    ? "is" : "is not");
+                string s2 = string.Format("{0} {1} a valid part number.",
+                partNumber, Regex.IsMatch(partNumber, pattern1) ? "is" : "is not");
                 MessageBox.Show(s2);
+            }
+
+            //(String,String,RegexOptions
+            string pattern2 = @"^[A-Z0-9]\d{2}[A-Z0-9](-\d{3}){2}[A-Z0-9]$";
+            foreach (string partNumber in partNumbers)
+            {
+                string s3 = string.Format("{0} {1} a valid part number.", 
+                    partNumber, Regex.IsMatch(partNumber, pattern2, RegexOptions.IgnoreCase) 
+                    ? "is" : "is not");
+                MessageBox.Show(s3);
             }
 
         }
