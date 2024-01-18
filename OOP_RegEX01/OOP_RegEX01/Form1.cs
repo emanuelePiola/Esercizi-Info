@@ -18,9 +18,14 @@ namespace OOP_RegEX01
             InitializeComponent();
         }
 
+        const int MAX_LENGHT = 10000;
+
         Regex regMatricola;
         Regex regNomeCognome;
         Regex regMail;
+
+        string[] dati = new string[MAX_LENGHT];
+        int indiceDati=0;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -60,8 +65,49 @@ namespace OOP_RegEX01
                 txtMail.Text = "";
                 return;
             }
+            else if (datiContainsIt(txtMatricola.Text, $"{txtNome.Text} {txtCognome.Text}"))
+            {
+                return;
+            }
             MessageBox.Show("Dati inseriti CORRETTAMENTE", "Operazione Riuscita", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            dati[indiceDati]=$"{txtMatricola.Text}-{txtNome.Text} {txtCognome.Text}";
+            reset();
+        }
+
+        private void reset()
+        {
             txtMatricola.Text = txtNome.Text = txtCognome.Text = txtMail.Text = "";
+        }
+
+        private bool datiContainsIt(string matricola, string nomeCognome)
+        {
+            for (int i = 0; i < dati.Length; i++)
+            {
+                if (dati[i] == null)
+                {
+                    break;
+                }
+                else if (matricola == dati[i].Split('-')[0])
+                {
+                    if (nomeCognome == dati[i].Split('-')[1])
+                    {
+                        MessageBox.Show($"Il socio {nomeCognome} è già stato inserito", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Esiste già un socio che corrisponde alla matricola {matricola}", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    reset();
+                    return true;
+                }
+            }
+            if (dati[MAX_LENGHT-1]!=null)
+            {
+                MessageBox.Show($"Massimo di soci raggiunto", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                reset();
+                return true;
+            }
+            return false;
         }
     }
 }
