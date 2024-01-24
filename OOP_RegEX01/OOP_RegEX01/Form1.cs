@@ -29,9 +29,9 @@ namespace OOP_RegEX01
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string patMatricola = @"^{10,}[a-zA-Z]{4}[1-9]{3}[#,$,&]{1,}";
+            string patMatricola = @"(?=^[a-zA-Z]{4,})(?=.*\d.*\d.*\d)(?=.*[#\$&])^[a-zA-Z\d#\$&]{10,}$";
             string patNomeCognome = @"^{3,}";
-            string patMail = @"[\w,.]{3,}[@]{1}\w{3,}[.]{1}\w{2,}";
+            string patMail = @"[\w\.]{3,}[@]{1}\w{3,}[.]{1}\w{2,}";
 
             regMatricola = new Regex(patMatricola, RegexOptions.IgnoreCase);
             regNomeCognome = new Regex(patNomeCognome, RegexOptions.IgnoreCase);
