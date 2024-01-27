@@ -64,6 +64,7 @@
             this.btnTelefono.TabIndex = 2;
             this.btnTelefono.Text = "TELEFONO";
             this.btnTelefono.UseVisualStyleBackColor = false;
+            this.btnTelefono.Click += new System.EventHandler(this.btnTelefono_Click);
             // 
             // btnImporto
             // 
