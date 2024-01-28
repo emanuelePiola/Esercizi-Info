@@ -40,17 +40,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(20, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 13);
+            this.label1.Size = new System.Drawing.Size(206, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "INPUT DA CONTROLLARE";
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(175, 13);
+            this.txtInput.Location = new System.Drawing.Point(262, 20);
+            this.txtInput.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(295, 20);
+            this.txtInput.Size = new System.Drawing.Size(440, 26);
             this.txtInput.TabIndex = 1;
             // 
             // btnTelefono
@@ -58,9 +60,10 @@
             this.btnTelefono.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTelefono.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnTelefono.Location = new System.Drawing.Point(16, 70);
+            this.btnTelefono.Location = new System.Drawing.Point(24, 108);
+            this.btnTelefono.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTelefono.Name = "btnTelefono";
-            this.btnTelefono.Size = new System.Drawing.Size(105, 39);
+            this.btnTelefono.Size = new System.Drawing.Size(158, 60);
             this.btnTelefono.TabIndex = 2;
             this.btnTelefono.Text = "TELEFONO";
             this.btnTelefono.UseVisualStyleBackColor = false;
@@ -71,54 +74,62 @@
             this.btnImporto.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnImporto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImporto.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnImporto.Location = new System.Drawing.Point(16, 151);
+            this.btnImporto.Location = new System.Drawing.Point(24, 232);
+            this.btnImporto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnImporto.Name = "btnImporto";
-            this.btnImporto.Size = new System.Drawing.Size(105, 39);
+            this.btnImporto.Size = new System.Drawing.Size(158, 60);
             this.btnImporto.TabIndex = 3;
             this.btnImporto.Text = "IMPORTO";
             this.btnImporto.UseVisualStyleBackColor = false;
+            this.btnImporto.Click += new System.EventHandler(this.btnImporto_Click);
             // 
             // btnClasse
             // 
             this.btnClasse.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnClasse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClasse.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnClasse.Location = new System.Drawing.Point(365, 70);
+            this.btnClasse.Location = new System.Drawing.Point(548, 108);
+            this.btnClasse.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClasse.Name = "btnClasse";
-            this.btnClasse.Size = new System.Drawing.Size(105, 39);
+            this.btnClasse.Size = new System.Drawing.Size(158, 60);
             this.btnClasse.TabIndex = 4;
             this.btnClasse.Text = "CLASSE";
             this.btnClasse.UseVisualStyleBackColor = false;
+            this.btnClasse.Click += new System.EventHandler(this.btnClasse_Click);
             // 
             // btnSpecializzazione
             // 
             this.btnSpecializzazione.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSpecializzazione.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSpecializzazione.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSpecializzazione.Location = new System.Drawing.Point(148, 70);
+            this.btnSpecializzazione.Location = new System.Drawing.Point(222, 108);
+            this.btnSpecializzazione.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSpecializzazione.Name = "btnSpecializzazione";
-            this.btnSpecializzazione.Size = new System.Drawing.Size(186, 61);
+            this.btnSpecializzazione.Size = new System.Drawing.Size(279, 94);
             this.btnSpecializzazione.TabIndex = 5;
             this.btnSpecializzazione.Text = "SPECIALIZZAZIONE (INF, MEC, ELT)";
             this.btnSpecializzazione.UseVisualStyleBackColor = false;
+            this.btnSpecializzazione.Click += new System.EventHandler(this.btnSpecializzazione_Click);
             // 
             // btnCodFiscale
             // 
             this.btnCodFiscale.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnCodFiscale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCodFiscale.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnCodFiscale.Location = new System.Drawing.Point(350, 151);
+            this.btnCodFiscale.Location = new System.Drawing.Point(502, 232);
+            this.btnCodFiscale.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCodFiscale.Name = "btnCodFiscale";
-            this.btnCodFiscale.Size = new System.Drawing.Size(120, 39);
+            this.btnCodFiscale.Size = new System.Drawing.Size(203, 60);
             this.btnCodFiscale.TabIndex = 6;
             this.btnCodFiscale.Text = "COD. FISCALE";
             this.btnCodFiscale.UseVisualStyleBackColor = false;
+            this.btnCodFiscale.Click += new System.EventHandler(this.btnCodFiscale_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 202);
+            this.ClientSize = new System.Drawing.Size(744, 311);
             this.Controls.Add(this.btnCodFiscale);
             this.Controls.Add(this.btnSpecializzazione);
             this.Controls.Add(this.btnClasse);
@@ -126,6 +137,7 @@
             this.Controls.Add(this.btnTelefono);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
