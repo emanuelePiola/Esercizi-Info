@@ -48,81 +48,92 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 22);
+            this.label1.Location = new System.Drawing.Point(8, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 20);
+            this.label1.Size = new System.Drawing.Size(76, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Flight number: ";
             // 
             // txtFlightNumber
             // 
-            this.txtFlightNumber.Location = new System.Drawing.Point(133, 22);
+            this.txtFlightNumber.Location = new System.Drawing.Point(89, 14);
+            this.txtFlightNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFlightNumber.Name = "txtFlightNumber";
-            this.txtFlightNumber.Size = new System.Drawing.Size(117, 26);
+            this.txtFlightNumber.Size = new System.Drawing.Size(79, 20);
             this.txtFlightNumber.TabIndex = 1;
             // 
             // txtDestination
             // 
-            this.txtDestination.Location = new System.Drawing.Point(133, 62);
+            this.txtDestination.Location = new System.Drawing.Point(89, 40);
+            this.txtDestination.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDestination.Name = "txtDestination";
-            this.txtDestination.Size = new System.Drawing.Size(328, 26);
+            this.txtDestination.Size = new System.Drawing.Size(220, 20);
             this.txtDestination.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 62);
+            this.label2.Location = new System.Drawing.Point(8, 40);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
+            this.label2.Size = new System.Drawing.Size(66, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Destination: ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 102);
+            this.label3.Location = new System.Drawing.Point(8, 66);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 20);
+            this.label3.Size = new System.Drawing.Size(33, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Date:";
             // 
             // dtpDate
             // 
-            this.dtpDate.Location = new System.Drawing.Point(133, 102);
+            this.dtpDate.Location = new System.Drawing.Point(89, 66);
+            this.dtpDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpDate.MinDate = new System.DateTime(2024, 2, 28, 0, 0, 0, 0);
             this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(266, 26);
+            this.dtpDate.Size = new System.Drawing.Size(179, 20);
             this.dtpDate.TabIndex = 6;
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(133, 146);
+            this.txtPrice.Location = new System.Drawing.Point(89, 95);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(117, 26);
+            this.txtPrice.Size = new System.Drawing.Size(79, 20);
             this.txtPrice.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 146);
+            this.label4.Location = new System.Drawing.Point(8, 95);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 20);
+            this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Price:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(256, 146);
+            this.label5.Location = new System.Drawing.Point(171, 95);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(18, 20);
+            this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "€";
             // 
             // btnBook
             // 
-            this.btnBook.Location = new System.Drawing.Point(16, 197);
+            this.btnBook.Location = new System.Drawing.Point(11, 128);
+            this.btnBook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBook.Name = "btnBook";
-            this.btnBook.Size = new System.Drawing.Size(110, 30);
+            this.btnBook.Size = new System.Drawing.Size(73, 20);
             this.btnBook.TabIndex = 10;
             this.btnBook.Text = "Book";
             this.btnBook.UseVisualStyleBackColor = true;
@@ -130,9 +141,10 @@
             // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(289, 250);
+            this.btnRemove.Location = new System.Drawing.Point(193, 162);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(172, 30);
+            this.btnRemove.Size = new System.Drawing.Size(115, 20);
             this.btnRemove.TabIndex = 11;
             this.btnRemove.Text = "Remove Flight";
             this.btnRemove.UseVisualStyleBackColor = true;
@@ -140,25 +152,28 @@
             // 
             // txtFlightRemove
             // 
-            this.txtFlightRemove.Location = new System.Drawing.Point(148, 250);
+            this.txtFlightRemove.Location = new System.Drawing.Point(99, 162);
+            this.txtFlightRemove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFlightRemove.Name = "txtFlightRemove";
-            this.txtFlightRemove.Size = new System.Drawing.Size(117, 26);
+            this.txtFlightRemove.Size = new System.Drawing.Size(79, 20);
             this.txtFlightRemove.TabIndex = 13;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 250);
+            this.label6.Location = new System.Drawing.Point(8, 162);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(130, 20);
+            this.label6.Size = new System.Drawing.Size(88, 13);
             this.label6.TabIndex = 12;
             this.label6.Text = "Flight to remove: ";
             // 
             // btnTotalRevenue
             // 
-            this.btnTotalRevenue.Location = new System.Drawing.Point(16, 298);
+            this.btnTotalRevenue.Location = new System.Drawing.Point(11, 194);
+            this.btnTotalRevenue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTotalRevenue.Name = "btnTotalRevenue";
-            this.btnTotalRevenue.Size = new System.Drawing.Size(234, 50);
+            this.btnTotalRevenue.Size = new System.Drawing.Size(156, 32);
             this.btnTotalRevenue.TabIndex = 14;
             this.btnTotalRevenue.Text = "Total Revenue";
             this.btnTotalRevenue.UseVisualStyleBackColor = true;
@@ -166,9 +181,10 @@
             // 
             // btnFlightsInformations
             // 
-            this.btnFlightsInformations.Location = new System.Drawing.Point(16, 368);
+            this.btnFlightsInformations.Location = new System.Drawing.Point(11, 239);
+            this.btnFlightsInformations.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFlightsInformations.Name = "btnFlightsInformations";
-            this.btnFlightsInformations.Size = new System.Drawing.Size(234, 50);
+            this.btnFlightsInformations.Size = new System.Drawing.Size(156, 32);
             this.btnFlightsInformations.TabIndex = 15;
             this.btnFlightsInformations.Text = "Flights informations";
             this.btnFlightsInformations.UseVisualStyleBackColor = true;
@@ -176,9 +192,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 450);
+            this.ClientSize = new System.Drawing.Size(318, 292);
             this.Controls.Add(this.btnFlightsInformations);
             this.Controls.Add(this.btnTotalRevenue);
             this.Controls.Add(this.txtFlightRemove);
@@ -194,6 +210,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtFlightNumber);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Flight prenotation";
             this.ResumeLayout(false);
