@@ -56,7 +56,27 @@ namespace EsInterfaccie02
                     $"Price: {flight.Price}€\n\n";
             }
 
-            MessageBox.Show(display);
+            if(display=="Prenotations:\n\n")
+            {
+                MessageBox.Show("No flight booked", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                MessageBox.Show(display);
+            }
+        }
+
+        internal bool flightExist(string flightNumber)
+        {
+            bool flightExist = false;
+            foreach (var flight in prenotations)
+            {
+                if(flight.FlightNumber==flightNumber)
+                {
+                    flightExist = true;
+                }
+            }
+            return flightExist;
         }
     }
 }

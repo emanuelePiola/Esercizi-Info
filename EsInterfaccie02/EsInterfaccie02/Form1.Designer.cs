@@ -130,24 +130,32 @@
             // 
             // btnBook
             // 
+            this.btnBook.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnBook.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBook.ForeColor = System.Drawing.Color.AliceBlue;
             this.btnBook.Location = new System.Drawing.Point(11, 128);
             this.btnBook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBook.Name = "btnBook";
             this.btnBook.Size = new System.Drawing.Size(73, 20);
             this.btnBook.TabIndex = 10;
             this.btnBook.Text = "Book";
-            this.btnBook.UseVisualStyleBackColor = true;
+            this.btnBook.UseVisualStyleBackColor = false;
             this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
             // 
             // btnRemove
             // 
+            this.btnRemove.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRemove.ForeColor = System.Drawing.Color.AliceBlue;
             this.btnRemove.Location = new System.Drawing.Point(193, 162);
             this.btnRemove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(115, 20);
+            this.btnRemove.Size = new System.Drawing.Size(116, 20);
             this.btnRemove.TabIndex = 11;
             this.btnRemove.Text = "Remove Flight";
-            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.UseVisualStyleBackColor = false;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // txtFlightRemove
@@ -170,30 +178,39 @@
             // 
             // btnTotalRevenue
             // 
+            this.btnTotalRevenue.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnTotalRevenue.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTotalRevenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTotalRevenue.ForeColor = System.Drawing.Color.AliceBlue;
             this.btnTotalRevenue.Location = new System.Drawing.Point(11, 194);
             this.btnTotalRevenue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTotalRevenue.Name = "btnTotalRevenue";
             this.btnTotalRevenue.Size = new System.Drawing.Size(156, 32);
             this.btnTotalRevenue.TabIndex = 14;
             this.btnTotalRevenue.Text = "Total Revenue";
-            this.btnTotalRevenue.UseVisualStyleBackColor = true;
+            this.btnTotalRevenue.UseVisualStyleBackColor = false;
             this.btnTotalRevenue.Click += new System.EventHandler(this.btnTotalRevenue_Click);
             // 
             // btnFlightsInformations
             // 
+            this.btnFlightsInformations.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnFlightsInformations.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFlightsInformations.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFlightsInformations.ForeColor = System.Drawing.Color.AliceBlue;
             this.btnFlightsInformations.Location = new System.Drawing.Point(11, 239);
             this.btnFlightsInformations.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFlightsInformations.Name = "btnFlightsInformations";
             this.btnFlightsInformations.Size = new System.Drawing.Size(156, 32);
             this.btnFlightsInformations.TabIndex = 15;
             this.btnFlightsInformations.Text = "Flights informations";
-            this.btnFlightsInformations.UseVisualStyleBackColor = true;
+            this.btnFlightsInformations.UseVisualStyleBackColor = false;
             this.btnFlightsInformations.Click += new System.EventHandler(this.btnFlightsInformations_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(318, 292);
             this.Controls.Add(this.btnFlightsInformations);
             this.Controls.Add(this.btnTotalRevenue);
