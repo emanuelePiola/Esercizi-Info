@@ -56,6 +56,10 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txtGenere = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.dgvUtenti = new System.Windows.Forms.DataGridView();
+            this.dgvElementi = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUtenti)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvElementi)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -224,7 +228,7 @@
             // 
             // btnStatoPrestiti
             // 
-            this.btnStatoPrestiti.Location = new System.Drawing.Point(458, 306);
+            this.btnStatoPrestiti.Location = new System.Drawing.Point(57, 455);
             this.btnStatoPrestiti.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnStatoPrestiti.Name = "btnStatoPrestiti";
             this.btnStatoPrestiti.Size = new System.Drawing.Size(196, 109);
@@ -253,7 +257,7 @@
             // 
             // btnDVD
             // 
-            this.btnDVD.Location = new System.Drawing.Point(854, 375);
+            this.btnDVD.Location = new System.Drawing.Point(941, 162);
             this.btnDVD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDVD.Name = "btnDVD";
             this.btnDVD.Size = new System.Drawing.Size(196, 40);
@@ -264,7 +268,7 @@
             // 
             // txtAutoreDVD
             // 
-            this.txtAutoreDVD.Location = new System.Drawing.Point(879, 273);
+            this.txtAutoreDVD.Location = new System.Drawing.Point(966, 105);
             this.txtAutoreDVD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAutoreDVD.Name = "txtAutoreDVD";
             this.txtAutoreDVD.Size = new System.Drawing.Size(218, 26);
@@ -273,7 +277,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(798, 277);
+            this.label10.Location = new System.Drawing.Point(885, 109);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(61, 20);
@@ -282,7 +286,7 @@
             // 
             // txtTitoloDVD
             // 
-            this.txtTitoloDVD.Location = new System.Drawing.Point(879, 233);
+            this.txtTitoloDVD.Location = new System.Drawing.Point(966, 65);
             this.txtTitoloDVD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTitoloDVD.Name = "txtTitoloDVD";
             this.txtTitoloDVD.Size = new System.Drawing.Size(218, 26);
@@ -291,7 +295,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(798, 233);
+            this.label11.Location = new System.Drawing.Point(885, 65);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 20);
@@ -301,7 +305,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(930, 182);
+            this.label12.Location = new System.Drawing.Point(1017, 14);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(44, 20);
@@ -310,27 +314,49 @@
             // 
             // txtGenere
             // 
-            this.txtGenere.Location = new System.Drawing.Point(879, 318);
+            this.txtGenere.Location = new System.Drawing.Point(1219, 103);
             this.txtGenere.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGenere.Name = "txtGenere";
-            this.txtGenere.Size = new System.Drawing.Size(218, 26);
+            this.txtGenere.Size = new System.Drawing.Size(116, 26);
             this.txtGenere.TabIndex = 31;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(798, 322);
+            this.label13.Location = new System.Drawing.Point(1215, 65);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(67, 20);
             this.label13.TabIndex = 30;
             this.label13.Text = "Genere:";
             // 
+            // dgvUtenti
+            // 
+            this.dgvUtenti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUtenti.Location = new System.Drawing.Point(394, 235);
+            this.dgvUtenti.Name = "dgvUtenti";
+            this.dgvUtenti.RowHeadersWidth = 62;
+            this.dgvUtenti.RowTemplate.Height = 28;
+            this.dgvUtenti.Size = new System.Drawing.Size(396, 329);
+            this.dgvUtenti.TabIndex = 32;
+            // 
+            // dgvElementi
+            // 
+            this.dgvElementi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvElementi.Location = new System.Drawing.Point(864, 235);
+            this.dgvElementi.Name = "dgvElementi";
+            this.dgvElementi.RowHeadersWidth = 62;
+            this.dgvElementi.RowTemplate.Height = 28;
+            this.dgvElementi.Size = new System.Drawing.Size(470, 329);
+            this.dgvElementi.TabIndex = 33;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1153, 495);
+            this.ClientSize = new System.Drawing.Size(1358, 591);
+            this.Controls.Add(this.dgvElementi);
+            this.Controls.Add(this.dgvUtenti);
             this.Controls.Add(this.txtGenere);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.btnDVD);
@@ -362,6 +388,9 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUtenti)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvElementi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -397,6 +426,8 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtGenere;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.DataGridView dgvUtenti;
+        private System.Windows.Forms.DataGridView dgvElementi;
     }
 }
 

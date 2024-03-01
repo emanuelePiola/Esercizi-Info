@@ -23,12 +23,14 @@ namespace Es03Interfaccie
         {
             lstUtenti.Add(new Utente(txtNome.Text, 
                 Convert.ToInt32(txtNTessera.Text)));
+            dgvUtenti.Rows.Add(txtNome.Text, txtNTessera.Text);
         }
 
         private void btnLibro_Click(object sender, EventArgs e)
         {
             lstElementoLibreria.Add(new Libro(txtTitoloLibro.Text, txtAutoreLibro.Text, 
                 Convert.ToInt32(txtNumeroPag.Text)));
+            dgvElementi.Rows.Add(txtTitoloLibro.Text, txtAutoreLibro.Text, txtNumeroPag.Text);
         }
 
         private void btnStatoPrestiti_Click(object sender, EventArgs e)
@@ -59,6 +61,7 @@ namespace Es03Interfaccie
         {
             lstElementoLibreria.Add(new DVD(txtTitoloDVD.Text, txtAutoreDVD.Text,
                 txtGenere.Text));
+            dgvElementi.Rows.Add(txtTitoloDVD.Text, txtAutoreDVD.Text, txtGenere.Text);
         }
 
         private void btnRestitutisci_Click(object sender, EventArgs e)
@@ -70,6 +73,29 @@ namespace Es03Interfaccie
             ILibreriaItem it = lstElementoLibreria.Find(t => titolo == t.Titolo);
 
             u.RestituisciItem(it);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            setDGV();
+        }
+
+        private void setDGV()
+        {
+            dgvUtenti.ColumnCount = 2; 
+            dgvUtenti.RowCount = 1;
+            dgvUtenti.ReadOnly = true;
+
+            dgvUtenti.Columns[0].HeaderText = "Nome";
+            dgvUtenti.Columns[1].HeaderText = "Numero Tessera";
+
+            dgvElementi.ColumnCount = 3;
+            dgvElementi.RowCount = 1;
+            dgvElementi.ReadOnly = true;
+
+            dgvElementi.Columns[0].HeaderText = "Titolo";
+            dgvElementi.Columns[1].HeaderText = "Autore";
+            dgvElementi.Columns[2].HeaderText = "Numero Pagine / Genere";
         }
     }
 }
