@@ -17,7 +17,18 @@ namespace EsInterfaccie09_UserControl
         private int decimalDigit = 0;
 
         public bool IsANumber { get => isANumber; set => isANumber = value; }
-        public string Texts { get => texts; set => texts = value; }
+        public string Texts 
+        {
+            get {
+                texts = txtText.Text;
+                return texts;
+            }
+            set
+            {
+                texts = value;
+                txtText.Text = texts;
+            }
+        }
         public int DecimalDigit
         {
             get { return decimalDigit; }
@@ -86,9 +97,9 @@ namespace EsInterfaccie09_UserControl
         {
             if(IsANumber)
             {
-                if (char.IsDigit(e.KeyChar) || e.KeyChar==',' || char.IsControl(e.KeyChar))
+                if(!(char.IsDigit(e.KeyChar) || e.KeyChar==',' || char.IsControl(e.KeyChar)))
                 {
-
+                    e.Handled = true;
                 }
             }
         }
